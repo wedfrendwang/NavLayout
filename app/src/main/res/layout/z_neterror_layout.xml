@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <!--数据界面错误-->
+    <ImageView
+        android:id="@+id/iv_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_reloading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_view"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="网络异常,点击重试"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+</RelativeLayout>
