@@ -69,6 +69,10 @@ public class NavFrameLayout extends FrameLayout {
             //抛出运行时异常
             throw new RuntimeException(NavFrameLayout.class.getSimpleName() + "必须有且只有一个子控件");
         }
+
+        View first = getChildAt(0);
+
+
         mContentView = getChildAt(1);
         mContentView.setVisibility(View.GONE);
     }
